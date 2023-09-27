@@ -89,6 +89,78 @@ h1{
     font-style: italic;
     color: #797979;
 }
+}
+/*SECTION RECURSOS*/
+#recursos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#recursos-linha{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.recursos-coluna{
+    height: 300px;
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.recursos-coluna:hover{
+    cursor: pointer;
+}
+.recursos-coluna img{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.recursos-coluna h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#recursos-btn{
+    margin: 80px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/*CONTATO*/
+#contato{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#contato-coluna-esquerda, #contato-coluna-direita{
+    flex-basis: 50%;
+}
+#contato-coluna-direita img{
+    width: 100%;
+}
+form{
+    max-width: 70%;
+    margin: 30px;
+}
+form input, textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    border: 2px solid #fab3c4;
+    outline: none;
+}
+#contato-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#contato-btn button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
 /*FOOTER*/
 footer{
     padding: 50pc 0 30px;
