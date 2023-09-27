@@ -89,3 +89,60 @@ h1{
     font-style: italic;
     color: #797979;
 }
+/*FOOTER*/
+footer{
+    padding: 50pc 0 30px;
+}
+hr{
+    width: 100%;
+    border-top: 1px solid #f67c92;
+    margin-bottom: 30px;
+}
+.footer-linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f67c92;
+    padding: 10px;
+}
+.footer-coluna-esquerda{
+    flex-basis: 35%;
+    margin-top: 5px 100px;
+    justify-items: right;
+    justify-content: flex-end;
+}
+.footer-coluna-direita{
+    flex-basis: 55%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-titulo h4{
+    color: #782135;
+    margin-bottom: 20px;
+}
+.link-titulo small{
+    font-size: 13px;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 20px;
+    margin-top: 20px 30px;
+    font-size: 10px;
+    border: 1px solid #edbcc5;
+}
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
+    font-size: 0,7em;
+}
